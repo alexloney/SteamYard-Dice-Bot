@@ -1,4 +1,4 @@
-# SteamYard Dice Bot
+# StreamYard Dice Bot
 
 This is a little bot I've written to automate dice rolling within StreamYard by automatically parsing and responding to messages sent to the chat.
 
