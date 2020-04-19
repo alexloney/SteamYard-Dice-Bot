@@ -1,7 +1,9 @@
-var chatid = "xxxxxxxxxx";
-var username = "xxxxxxxx";
-var clientid = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-var csrfToken = "xxxxxxxxxxxxxxxxxxxxxxxx";
+// The below will need to be populated by you, I got them by sending a test message to chat
+// and checking the Chrome network traffic to see what was sent.
+var chatid = "xxxxxxxxxx"; // This is part of the url for the stream room, it should be in the URL
+var username = "DICE BOT"; // This is the username you'd like the bot to show up as
+var clientid = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"; // I found this by sending a test message and viewing Chrome network traffic
+var csrfToken = "xxxxxxxxxxxxxxxxxxxxxxxx"; // I also found this with Chrome network traffic
 
 var commentClassStr = "Chat__Comments-dUewnW eqLtEG";
 var timeoutDuration = 1000;
