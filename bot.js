@@ -187,7 +187,7 @@ function postResponse(msg)
 	var xhttp = new XMLHttpRequest();
 	xhttp.open("POST", "/api/broadcasts/" + chatid + "/chat", true);
 	xhttp.setRequestHeader("content-type", "application/json");
-	xhttp.send('{"text":"' + msg + '","name":"' + username + '","clientId":"' + clientid + '","color":"#22653f","csrfToken":"' + csrftoken + '"}');
+	xhttp.send('{"text":"' + msg + '","name":"' + username + '","clientId":"' + clientid + '","color":"#22653f","csrfToken":"' + csrfToken + '"}');
 }
 
 // Loop through the comments, skipping a set number of comments to prevent duplicating
